@@ -39,7 +39,6 @@ class Writer(object):
         return self.directory + self.filename + "_%0.2d.txt" % self.ii
 
 
-
 def generate_alphabet(size=random.randint(1, 27), chars=string.ascii_lowercase):
     return ''.join(random.choice(chars) for i in range(size))
 
