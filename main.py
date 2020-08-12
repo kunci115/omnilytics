@@ -36,7 +36,7 @@ class Writer(object):
 
     @property
     def filename_template(self):
-        return self.directory + self.filename + "_%0.2d.txt" % self.ii
+        return self.directory + self.filename + "_01.txt"
 
 
 def generate_alphabet(size=random.randint(1, 27), chars=string.ascii_lowercase):
